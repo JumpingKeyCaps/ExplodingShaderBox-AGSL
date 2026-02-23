@@ -25,7 +25,7 @@ fun ExplodableBoxDemo() {
             shaderResId = R.raw.explodingshader
         ) {
             Image(
-                painter = painterResource(id = R.drawable.demopic1),
+                painter = painterResource(id = R.drawable.demopic9),
                 contentDescription = null,
                 modifier = Modifier.fillMaxSize(),
                 contentScale = ContentScale.Crop
