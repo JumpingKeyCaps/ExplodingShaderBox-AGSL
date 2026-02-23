@@ -15,6 +15,16 @@ This shader is meant to accompany **irreversible or premium actions** in a Compo
 
 ---
 
+
+--
+
+| Shaderized Box + Full Picture | Anim Slow Motion 8000ms | Anim Slow Motion 16000ms | 
+|:---:|:---:|:---:|
+| ![P1](screenshots/demo1.gif) | ![P1a](screenshots/demo1sm1.gif) |  ![P1b](screenshots/demo1sm2.gif) |
+
+
+---
+
 ## Concept
 
 The Exploding Shader Box applies a multi-phase explosion effect to **everything rendered inside a Compose Box**, regardless of content type:
