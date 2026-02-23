@@ -207,7 +207,6 @@ Visual destruction communicates finality better than any dialog.
 
 ## Summary
 
-- A destruction shader, not a decoration
 - Works with any Compose-rendered content
 - Local or global based on container placement
 - Ideal for premium or irreversible actions
