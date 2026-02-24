@@ -21,6 +21,7 @@ import kotlinx.coroutines.launch
 fun ExplodableBox(
     modifier: Modifier = Modifier,
     shaderResId: Int,
+    globalTimer: Int = 3000,
     content: @Composable BoxScope.() -> Unit = {}
 ) {
     val resources = LocalResources.current
@@ -61,7 +62,7 @@ fun ExplodableBox(
                                 progress.snapTo(0f)
                                 progress.animateTo(
                                     targetValue = 1f,
-                                    animationSpec = tween(3000, easing = LinearEasing)
+                                    animationSpec = tween(globalTimer, easing = LinearEasing)
                                 )
 
                                 // 3. Une fois fini, on reset
